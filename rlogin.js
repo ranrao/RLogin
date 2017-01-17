@@ -4,6 +4,7 @@ $(document).ready(function() {
   // Get the popup
   var popup = document.getElementById('rpopup');
 
+  // On click of initial login button
   $('#loginbtn').on("click", function() {
     popup.style.display = 'block';
   });
@@ -14,5 +15,4 @@ $(document).ready(function() {
       popup.style.display = "none";
     }
   }
-
 });

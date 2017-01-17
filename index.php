@@ -2,7 +2,9 @@
    ob_start();
    session_start();
 
-  if ( !empty($_POST['username']) && !empty($_POST['password'])) {
+   /* RLogin - A simple login application based on PHP/JQuery framework.
+
+  if (!empty($_POST['username']) && !empty($_POST['password'])) {
     $username = $_POST['username'];
   }
 ?>
